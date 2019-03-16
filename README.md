@@ -1,0 +1,1 @@
+From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css). This project will deconstruct an existing web page to the effect of analying and understanding how elements get placed on the page including their syling and alignment as part of the Odin Project - Microverse's Pre-Course.

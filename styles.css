@@ -1,0 +1,192 @@
+/* Universal box sizing with inheritance, vendor preference and backward compatibility */
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+  *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+/* Set page space */
+.main-div {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+}
+
+/* Set top and footer nav bars positions */
+.top-navigation, .footer-navigation {
+    margin: 2em;
+    padding-right: 2em;
+    line-height: 30px;
+}
+
+/* Top right navigation position*/
+.top-right-navigation {
+        float: right;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+ul li {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+a {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    opacity: 0.75;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.apps-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;      
+}
+
+
+.apps-icon:hover {
+    filter: brightness(0%);
+    text-decoration: none;
+}
+
+
+li button {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #4285f4;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    line-height: 28px;
+    padding: 0x 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li button:hover {
+    text-decoration: none;
+}
+
+
+.google-logo {
+    margin-top: 10em;
+    text-align: center;
+}
+
+
+.searchbar-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;    
+}
+
+
+.searchbar-container {
+    width: 680px;
+    height: 50px;
+    border: 1px solid #cccccc;
+    box-shadow: 1px 2px 3px #dddddd;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+} 
+
+
+.searchbar-input {
+    outline: none;
+    border: none;
+    width: 660px;
+    margin-left: 10px;
+}
+
+
+.google-mic > img {
+    width: 32px;
+    height: 32px;
+    margin-top: 4px;
+}
+
+
+.searchbar-buttons {
+    margin-top: 15px;
+    text-align: center;
+    
+}
+
+
+.searchbar-buttons > button:hover {
+    text-decoration: none;
+}
+
+
+.searchbar-buttons > button {   
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+.alternative-languages li a:hover {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+
+
+.alternative-languages p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.gaeilge {
+    color: blue;
+}
+
+
+.footer {
+    font-size: 14px;
+    opacity: 0.75;
+    color: rgba(0,0,0,.54);
+    background-color: #f2f2f2;
+    line-height: 40px;
+    bottom: 0;
+    padding: 0em 1em;
+    width: 100%;
+    position: absolute;
+
+}
+
+
+.footertop-left {
+    float: left;
+}
+
+
+.footer-bottom-right {
+    float: right;
+}
+
+
+
+
+
